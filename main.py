@@ -86,8 +86,8 @@ def run_jarvis():
     elif 'open google' in command:
         webbrowser.open_new_tab("google.com")
 
-    elif 'open code gurukul' in command:
-        cg= webbrowser.open_new_tab("code-gurukul.com")
+    elif 'open gmail' in command:
+        cg= webbrowser.open_new_tab("gmail.com")
 
     elif 'news' in command:
         news = webbrowser.open_new_tab("https://timesofindia.indiatimes.com/home/headlines")
